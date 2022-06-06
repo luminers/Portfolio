@@ -1,16 +1,16 @@
 <template>
-  <MainDiv />
+  <Conocimientos />
 </template>
 
 <script>
 // @ is an alias to /src
 
-import MainDiv from "@/components/MainDiv.vue";
+import Conocimientos from "@/components/ConocimientosComponente.vue";
 
 export default {
   name: "HomeView",
   components: {
-    MainDiv,
+    Conocimientos,
   },
 };
 </script>

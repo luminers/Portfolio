@@ -1,8 +1,8 @@
 <template>
   <nav class="header-nav">
     <router-link to="/"><h3>Conocimientos</h3></router-link>
-    <router-link to="/about"><h3>Proyectos</h3></router-link>
-    <router-link to="/about"><h3>Sobre mi</h3></router-link>
+    <router-link to="/proyectos"><h3>Proyectos</h3></router-link>
+    <router-link to="/sobre-mi"><h3>Sobre mi</h3></router-link>
   </nav>
   <router-view />
 </template>

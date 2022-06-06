@@ -36,7 +36,6 @@ export default {
   border-radius: 10px;
   width: 70%;
   border: 1px solid #333333;
-  /* margin: 10px; */
 }
 .certificacion-btn:hover {
   cursor: pointer;

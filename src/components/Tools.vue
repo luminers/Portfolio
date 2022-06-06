@@ -7,7 +7,7 @@
     />
     <img
       class="icon"
-      src="http://assets.stickpng.com/images/5847f981cef1014c0b5e48be.png"
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/1280px-Git-logo.svg.png"
       alt="Git"
     />
     <img
@@ -18,12 +18,12 @@
     <img
       class="icon"
       src="https://helpx.adobe.com/content/dam/help/es/xd/help/faq/jcr_content/main-pars/imageandtext_1319139292/imageandtextimage/XD.png.img.png"
-      alt="Git"
+      alt="Adobe XD"
     />
     <img
       class="icon"
       src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
-      alt="Git"
+      alt="GitHub"
     />
   </div>
 </template>

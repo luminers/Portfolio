@@ -1,4 +1,5 @@
 <template>
+  <h3>Estudios</h3>
   <div class="div-content carrera">
     <p>
       Estudiante de Tecnicatura Universitaria en Programación en la universidad

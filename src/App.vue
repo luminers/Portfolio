@@ -1,8 +1,12 @@
 <template>
   <nav class="header-nav">
-    <router-link to="/"><h3>Conocimientos</h3></router-link>
-    <router-link to="/proyectos"><h3>Proyectos</h3></router-link>
-    <router-link to="/sobre-mi"><h3>Sobre mi</h3></router-link>
+    <router-link id="conocimientos-a" to="/"
+      ><h3>Conocimientos</h3></router-link
+    >
+    <router-link id="proyectos-a" to="/proyectos"
+      ><h3>Proyectos</h3></router-link
+    >
+    <router-link id="sobre-mi-a" to="/sobre-mi"><h3>Sobre mi</h3></router-link>
   </nav>
   <router-view />
 </template>
@@ -52,13 +56,39 @@ body {
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   display: flex;
-  flex-flow: column nowrap;
+  flex-flow: row wrap;
+  overflow-y: scroll;
+}
+
+#app::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+#app::-webkit-scrollbar:vertical {
+  width: 10px;
+}
+
+#app::-webkit-scrollbar-button:increment,
+#app::-webkit-scrollbar-button {
+  display: none;
+}
+
+#app::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+
+#app::-webkit-scrollbar-thumb {
+  background-color: rgba(221, 221, 221, 0.492);
+  border-radius: 20px;
+}
+
+#app::-webkit-scrollbar-track {
+  border-radius: 10px;
 }
 
 .header-nav {
   width: 90vw;
   height: 90px;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -69,10 +99,13 @@ body {
   justify-content: center;
   align-items: center;
   height: 100%;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #535353;
+  color: #151515;
 }
 .header-nav a:hover {
-  box-shadow: 0 8px 12px 0 rgba(2, 2, 2, 0.574);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 8px 9px 0 rgba(2, 2, 2, 0.574);
 
   transition: 0.5s ease;
 }

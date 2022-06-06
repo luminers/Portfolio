@@ -1,16 +1,16 @@
 <template>
-  <Conocimientos />
+  <Proyectos />
 </template>
 
 <script>
 // @ is an alias to /src
 
-import Conocimientos from "@/components/ConocimientosComponente.vue";
+import Proyectos from "@/components/ProyectosComponente.vue";
 
 export default {
-  name: "AboutView",
+  name: Proyectos,
   components: {
-    Conocimientos,
+    Proyectos,
   },
 };
 </script>

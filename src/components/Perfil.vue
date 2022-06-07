@@ -9,6 +9,7 @@
         rubro. Cuento con una gran capacidad de aprendizaje y un gran sentido de
         responsabilidad.
       </p>
+      <img class="img-perfil" :src="img" alt="foto" />
     </div>
   </main>
 </template>
@@ -16,12 +17,24 @@
 <script>
 export default {
   name: "ResumenComponente",
+  data() {
+    return {
+      img: "https://scontent.fcor2-1.fna.fbcdn.net/v/t39.30808-6/271826419_6678716818865378_8670965358419858852_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=AkZGqpe2I8wAX-NjS1-&_nc_ht=scontent.fcor2-1.fna&oh=00_AT8ijZh2QKritRlEgpDIMBcBmE7ty9m9INLmKHv7-K6zfg&oe=62A41E43",
+    };
+  },
 };
 </script>
 
 <style scoped>
 .perfil {
-  width: 70%;
+  margin-top: 0;
+  width: 100%;
   height: auto;
+}
+
+.img-perfil {
+  width: 30%;
+  border-radius: 10px;
+  margin: 30px;
 }
 </style>

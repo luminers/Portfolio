@@ -39,7 +39,7 @@ export default {
 <style>
 .main-section {
   width: 100%;
-  height: 87vh;
+  height: auto;
   padding: 20px;
   display: flex;
   flex-flow: column wrap;
